@@ -1,0 +1,16 @@
+Respuesta desde 192.168.128.1: bytes=32 tiempo<1m TTL=255
+Respuesta desde 192.168.128.37: bytes=32 tiempo<1m TTL=128
+Respuesta desde 192.168.128.45: bytes=32 tiempo<1m TTL=128
+Respuesta desde 192.168.128.57: bytes=32 tiempo<1m TTL=64
+Respuesta desde 192.168.128.64: bytes=32 tiempo=1ms TTL=64
+Respuesta desde 192.168.128.74: bytes=32 tiempo=1ms TTL=128
+Respuesta desde 192.168.128.90: bytes=32 tiempo=7ms TTL=64
+Respuesta desde 192.168.128.149: bytes=32 tiempo<1m TTL=128
+Respuesta desde 192.168.128.150: bytes=32 tiempo=268ms TTL=255
+Respuesta desde 192.168.128.153: bytes=32 tiempo=4ms TTL=64
+Respuesta desde 192.168.128.251: bytes=32 tiempo=1ms TTL=64
+Respuesta desde 192.168.128.253: bytes=32 tiempo=1ms TTL=64
+Respuesta desde 192.168.129.20: bytes=32 tiempo=1ms TTL=128
+Respuesta desde 192.168.129.26: bytes=32 tiempo=480ms TTL=128
+Respuesta desde 192.168.129.126: bytes=32 tiempo=2ms TTL=128
+Respuesta desde 192.168.129.136: bytes=32 tiempo<1m TTL=128
