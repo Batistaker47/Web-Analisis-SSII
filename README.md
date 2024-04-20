@@ -27,7 +27,7 @@ En el último módulo de este trabajo, se ejecuta un análisis los puertos activ
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,bash,js" />
+    <img src="https://skillicons.dev/icons?i=python,bash" />
   </a>
 </p>
 
