@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///D:/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -p 1-65535 -T4 -A -v 192.168.128.1" profile_name="Intense scan, all TCP ports" scanner="nmap" start="1707741565" startstr="Mon Feb 12 13:39:25 2024" version="7.94" xmloutputversion="1.04"><scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.94 ( https://nmap.org ) at 2024-02-12 13:39 Hora estándar romance
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 13:39
+Completed NSE at 13:39, 0.00s elapsed
+Initiating NSE at 13:39
+Completed NSE at 13:39, 0.00s elapsed
+Initiating NSE at 13:39
+Completed NSE at 13:39, 0.00s elapsed
+Initiating ARP Ping Scan at 13:39
+Scanning 192.168.128.1 [1 port]
+Completed ARP Ping Scan at 13:39, 0.07s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 13:39
+Completed Parallel DNS resolution of 1 host. at 13:39, 0.00s elapsed
+Initiating SYN Stealth Scan at 13:39
+Scanning 192.168.128.1 [65535 ports]
+Discovered open port 53/tcp on 192.168.128.1
+SYN Stealth Scan Timing: About 21.51% done; ETC: 13:41 (0:01:53 remaining)
+Discovered open port 853/tcp on 192.168.128.1
+SYN Stealth Scan Timing: About 54.92% done; ETC: 13:41 (0:00:50 remaining)
+Completed SYN Stealth Scan at 13:41, 93.19s elapsed (65535 total ports)
+Initiating Service scan at 13:41
+Scanning 2 services on 192.168.128.1
+Completed Service scan at 13:41, 17.16s elapsed (2 services on 1 host)
+Initiating OS detection (try #1) against 192.168.128.1
+Retrying OS detection (try #2) against 192.168.128.1
+NSE: Script scanning 192.168.128.1.
+Initiating NSE at 13:41
+Completed NSE at 13:41, 8.30s elapsed
+Initiating NSE at 13:41
+Completed NSE at 13:41, 0.05s elapsed
+Initiating NSE at 13:41
+Completed NSE at 13:41, 0.00s elapsed
+Nmap scan report for 192.168.128.1
+Host is up (0.00076s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE  SERVICE    VERSION
+53/tcp  open   domain     Unbound
+113/tcp closed ident
+853/tcp open   ssl/domain Unbound
+|_ssl-date: 2024-02-12T12:41:29+00:00; -1s from scanner time.
+| tls-alpn: 
+|_  dot
+| ssl-cert: Subject: commonName=FG201E4Q17900702/organizationName=Fortinet/stateOrProvinceName=California/countryName=US
+| Issuer: commonName=support/organizationName=Fortinet/stateOrProvinceName=California/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-02-06T09:05:17
+| Not valid after:  2038-01-19T03:14:07
+| MD5:   6a4b:b75f:8314:4893:cc30:7585:22ab:7193
+|_SHA-1: 687c:b01c:7416:035b:1395:7b98:758c:32ae:9af1:bfa6
+MAC Address: 90:6C:AC:FB:AD:89 (Fortinet)
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Uptime guess: 50.790 days (since Sat Dec 23 18:43:27 2023)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=252 (Good luck!)
+IP ID Sequence Generation: Randomized
+
+Host script results:
+|_clock-skew: -1s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.76 ms 192.168.128.1
+
+NSE: Script Post-scanning.
+Initiating NSE at 13:41
+Completed NSE at 13:41, 0.00s elapsed
+Initiating NSE at 13:41
+Completed NSE at 13:41, 0.00s elapsed
+Initiating NSE at 13:41
+Completed NSE at 13:41, 0.00s elapsed
+Read data files from: D:\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 125.02 seconds
+           Raw packets sent: 131208 (5.777MB) | Rcvd: 124 (6.340KB)
+</output><host comment=""><status state="up"></status><address addr="192.168.128.1" vendor="" addrtype="ipv4"></address><address addr="90:6C:AC:FB:AD:89" vendor="Fortinet" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="65532" state="filtered"></extraports><port portid="53" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="domain" product="Unbound"></service></port><port portid="113" protocol="tcp"><state state="closed" reason="reset" reason_ttl="64"></state><service conf="3" method="table" name="ident"></service></port><port portid="853" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="domain" product="Unbound"></service></port></ports><os><portused state="open" proto="tcp" portid="53"></portused><portused state="closed" proto="tcp" portid="113"></portused></os><uptime seconds="4388283" lastboot="Sat Dec 23 18:43:27 2023"></uptime><tcpsequence index="252" difficulty="Good luck!" values="560851F9,F75144C9,B1B64815,13B2F195,99D7E86A,EA70FFE3"></tcpsequence><ipidsequence class="Randomized" values="4A3C,4A41,4A42,4A3A,4A38,4A39"></ipidsequence><tcptssequence class="other" values="60C71B36,60C71B4A,60C71B4A,60C71A96,60C71A96,60C71A96"></tcptssequence><trace proto="" port=""><hop ttl="1" rtt="0.76" ipaddr="192.168.128.1" host=""></hop></trace></host><runstats><finished time="1707741690" timestr="Mon Feb 12 13:41:30 2024"></finished><hosts up="1" down="0" total="1"></hosts></runstats></nmaprun>
